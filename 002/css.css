@@ -1,0 +1,130 @@
+			*{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				
+			}
+			.wrap{
+				width: 1350px;
+				margin: 0 auto;
+				background: #EEEEEE;
+			}
+			.header{
+				width: 100%;
+				height: 80px;
+				background-color: dimgrey;
+			}
+			.header_mid{
+				width: 960px;
+				height: 80px;
+				margin: 0 auto;
+				color: white;
+				position: relative;
+				
+			}
+			.header_mid_left{
+				line-height: 80px;
+				float: left;
+				font-size: 25px;
+				
+			}
+			.header_mid_right li{
+				float: right;
+				margin-top: 5px;
+				margin-left: 10px;
+				font-size: 18px;
+			}
+			.header_mid_right a:link{
+				color: white;
+			}
+			.banner{
+				height: 300px;
+				background: forestgreen;
+				position: relative;
+			}
+			.banner ul{
+				position: absolute;	
+				top: 250px;
+				right: 195px;
+			}
+			.banner li{
+				float: right;
+				width: 30px;
+				height: 35px;
+				background: lightgrey;
+				border: solid 1px black;
+				text-align: center;
+				line-height: 35px;
+				margin-right: 5px;
+				
+			}
+			.nav{
+				height: 70px;
+				border-bottom: 1px solid darkgrey;
+			}
+			.nav_mid{
+				height: 70px;
+				width: 960px;
+				margin: 0 auto;
+				
+			}
+			.nav_mid span{
+				display: inline-block;
+				float: left;
+				height: 50px;
+				line-height: 50px;
+				border: 1px solid darkgrey;
+				
+				margin-top: 20px;
+				background: lightgrey;
+				padding: 0 30px;
+				border-radius: 20px 20px 0 0;
+			}
+			.content{
+				clear: left;
+				margin-top: 12px;
+				background: white;
+				
+			}
+			.content_mid{
+				margin: 0 auto;
+				width: 960px;
+				
+				
+				
+			}
+			.content_mid div{
+				
+				height: 175px;
+				line-height: 175px;
+				text-align: center;	
+				border: 1px solid darkgrey;
+				float: left;
+				margin-right: 10px;
+				
+			}
+			#div1,
+			#div2{
+				width: 325px;
+			}
+			#div3{
+				width: 274px;
+			}
+			.line-two{
+				width: 228px;
+				margin-top: 10px;
+			}
+			.line-three{
+				width: 308px;
+				margin-top: 10px;
+				margin-bottom: 15px;
+			}
+			.footer{
+				clear: both;
+				height: 120px;
+				background: grey;
+				text-align: center;
+				color: white;
+				padding-top: 15px;
+				
+			}
