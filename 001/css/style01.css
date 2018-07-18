@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	height: 60px;
+	line-height: 60px;
+}
+h2{
+	height: 50px;
+	line-height: 50px;
+}
+h3{
+	height: 40px;
+	line-height: 40px;
+}
+span{
+	height: 30px;
+	line-height: 30px;
+}
+.wrap{
+	height: auto;
+	width: auto;
+	border: solid 1px #eee;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.bold{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 800;
+}
